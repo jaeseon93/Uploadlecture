@@ -12,14 +12,14 @@ public class Member {
     public Member() {
     	
     }
-    public Member(String id, String pw, String name, String addr, String tel, int grade) {
-    	this.id = id;
-    	this.pw = pw;
-    	this.name = name;
-    	this.addr = addr;
-    	this.tel = tel;
-    	this.grade = grade;
-    }
+//    public Member(String id, String pw, String name, String addr, String tel, int grade) {
+//    	this.id = id;
+//    	this.pw = pw;
+//    	this.name = name;
+//    	this.addr = addr;
+//    	this.tel = tel;
+//    	this.grade = grade;
+//    }
 	public String getId() {
 		return id;
 	}
@@ -56,7 +56,17 @@ public class Member {
 	public void setGrade(int grade) {
 		this.grade = grade;
 	}
-    
+	
+//  값을 가져오는 setter가 다 막혀있을때 매소드 insert구문을 가져와야함
+//	public void insert(String id, String pw, String name, String addr, String tel, int grade) {
+//    	this.id = id;
+//    	this.pw = pw;
+//    	this.name = name;
+//    	this.addr = addr;
+//    	this.tel = tel;
+//    	this.grade = grade;
+//	}
+		
     public String toString() {
     	System.out.print(id + " "); 
     	System.out.print(pw + " ");
